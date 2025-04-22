@@ -1,4 +1,13 @@
 set quiet := true
 
-greet:
-    @echo "Hello from Just!"
+init:
+    pnpm install
+
+run:
+    pnpm run dev
+
+format:
+    pnpm run format
+
+check:
+    pnpm run check
